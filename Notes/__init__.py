@@ -1,5 +1,5 @@
-from Notes.NoteManager import NoteManager
 from Notes.Note import Note
+from Notes.NoteManager import NoteManager
 
 
 class Menu:
