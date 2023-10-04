@@ -1,6 +1,7 @@
 from Notes.NoteManager import NoteManager
 from Notes.Note import Note
 
+
 class Menu:
     def __init__(self):
         self.note_manager = NoteManager()
@@ -82,6 +83,7 @@ class Menu:
                 break
             else:
                 print("Неверный выбор. Попробуйте еще раз.")
+
 
 menu = Menu()
 menu.run()
